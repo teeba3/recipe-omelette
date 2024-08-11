@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'YoungSerif';
+  src: url('YoungSerif-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family:'outfil';
+  src: url(Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+  background-color:hsl(30, 54%, 90%) ;
+  h1{margin: 10px;}
+  p{margin: 20px;}
+
+}
+
+.layout {
+  margin: auto;
+  margin-top: 10px;
+  font-family: 'outfil',sans-serif;
+  border-radius: 20px;
+  width: 1440px;
+  background-color: #fffcf7;
+  display: block;
+  padding: 50px;
+}
+
+p {
+  color: black;
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  width: 98%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.layin {
+  font-family: 'outfil',serif;
+  margin: 30px;
+  background-color:  hsla(332, 51%, 32%, 0.103);
+  width: 50%;
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+
+
+}
+
+
+.layin h3 {
+  margin: 10px;
+  color: hsl(332, 51%, 32%) ;
+  font-size: larger;
+}
+
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ul{color: black;
+  font-family: 'outfil',sans-serif;}
+
+ol{
+li::marker{color:hsl(14, 45%, 36%);
+font-size: larger;}
+font-family: 'outfil',sans-serif;
+  }
+
+table{
+  font-family: 'outfil',sans-serif;
+ border-collapse: collapse;
+ 
+ td{padding: 40px;}
+ tr{
+border-bottom: 1px solid black;
+
+ }
+tr:last-child{border-bottom: none;}
+
+b{
+ 
+  display: block;
+  text-align: justify;
+ 
+  }
+  margin: 3%;
+
+  width: 60%;
+}
+
+
+
+.title {
+  font-family: 'YoungSerif', serif;
+  color: hsl(14, 45%, 36%);
+  font-size: x-large;
+}
+
+hr{
+ width: 95%;
+ height: 1px;
+}
+
+tr:hover{
+  background-color: rgba(100, 88, 88, 0.068);
+}
+
+.title:hover{
+
+  font-size: xx-large;
+}
+
+p:hover{
+font-size: x-large;
+background-color: rgba(189, 146, 106, 0.089);
+
+}
+
+li:hover{
+
+  font-size: larger;
+  
+}
