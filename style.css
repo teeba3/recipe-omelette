@@ -10,6 +10,7 @@
 }
 
 body {
+  margin-bottom: 5%;
   background-color:hsl(30, 54%, 90%) ;
   h1{margin: 10px;}
   p{margin: 20px;}
